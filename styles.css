@@ -54,13 +54,13 @@ header {
   padding: 10px;
 }
 
-.navbar__pages {
+.navbar__pagina {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
-.navbar__pages a {
+.navbar__pagina a {
   text-decoration: none;
   color: var(--color-titulo);
   padding: 15px;
@@ -69,13 +69,13 @@ header {
   transition: all 0.4s;
 }
 
-.navbar__home {
+.navbar__inicio {
   height: 600px;
   object-fit: cover;
   object-position: center top;
 }
 
-.navbar__map{
+.navbar__ubicacion{
   height: 600px;
 }
 
@@ -89,7 +89,7 @@ main {
   margin: 0 auto;
 }
 
-.description {
+.descripcion {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -97,20 +97,19 @@ main {
   padding-bottom: 25px;
 }
 
-.description img {
+.descripcion img {
   width: 50%;
   height: auto;
   object-fit: cover;
-  box-shadow: 4px 4px 6px var(--color-principal);
 }
 
-.description p {
+.descripcion p {
   font-size: 18px;
   font-weight: bold;
   padding-left: 25px;
 }
 
-.products {
+.producto {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,33 +118,32 @@ main {
   margin-bottom: 25px;
 }
 
-.products__card {
+.producto__tarjeta {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.products__card h2 {
+.producto__tarjeta h2 {
   font-size: 23px;
   color: var(--color-titulo);
   margin-bottom: 15px;
 }
 
-.products__card img {
+.producto__tarjeta img {
   width: 350px;
   height: 350px;
   object-fit: cover;
-  box-shadow: 4px 4px 6px var(--color-titulo);
 }
 
-.products__card p {
+.producto__tarjeta p {
   margin: 15px 30px auto 30px;
   font-size: 15px;
   font-weight: bold;
 }
 
-.form {
+.formulario {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -153,44 +151,43 @@ main {
   margin-bottom: 25px;
 }
 
-.form img {
+.formulario img {
   width: 50%;
   height: 480px;
   object-fit: cover;
-  box-shadow: 4px 4px 6px var(--color-principal);
 }
 
-.form form {
+.formulario form {
   width: 50%;
   margin-left: 25px;
 }
 
-.form__control {
+.formulario__control {
   display: flex;
   flex-direction: column;
   padding: 5px;
 }
 
-.form__control label {
+.formulario__control label {
   font-size: 18px;
   font-weight: bold;
   color: var(--color-titulo);
   margin-bottom: 5px;
 }
 
-.form__control input {
+.formulario__control input {
   padding: 5px 10px;
   border: 2px solid var(--color-titulo);
   border-radius: 0;
 }
 
-.form__control textarea {
+.formulario__control textarea {
   padding: 10px;
   border: 2px solid var(--color-titulo);
   border-radius: 0;
 }
 
-.form input[type="submit"] {
+.formulario input[type="submit"] {
   width: 50%;
   padding: 15px 10px;
   margin-top: 25px;
@@ -204,7 +201,7 @@ main {
   cursor: pointer;
 }
 
-.contact {
+.contacto {
   margin-top: 25px;
   margin-bottom: 50px;
   display: flex;
@@ -212,14 +209,14 @@ main {
   align-items: center;
 }
 
-.contact__title {
+.contacto__titulo {
   font-size: 40px;
   text-decoration: underline;
   color: var(--color-principal);
   margin-bottom: 15px;
 }
 
-.contact__content {
+.contacto__contenido {
   width: 600px;
   display: flex;
   justify-content: space-between;
@@ -229,7 +226,7 @@ main {
   font-style: italic;
 }
 
-.contact__content i {
+.contacto__contenido i {
   color: var(--color-principal);
 }
 
@@ -265,13 +262,13 @@ main {
   justify-content: center;
 }
 
-.footer__pages {
+.footer__pagina {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
-.footer__pages a {
+.footer__pagina a {
   text-decoration: none;
   color: var(--color-secundario);
   padding: 15px;
